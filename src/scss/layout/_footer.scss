@@ -1,0 +1,90 @@
+.page__footer {
+    font-family: 'Poppins';
+    background-color: hsl(184, 72%, 17%);
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-links h4{
+    font-weight: 400;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    display: block;
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.linkedin{
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.instagram{
+    width: 50px;
+}
+
+.twitter{
+    width: 30px;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.arrow img{
+    width: 30px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:768px) {
+
+    .footer-links{
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .footer-links h4 {
+        margin-bottom: 10px;
+        font-size: larger;
+    }
+
+    .footer-links a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+    .social-media{
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .arrow {
+        align-self: flex-end;
+    }
+}
